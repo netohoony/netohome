@@ -875,7 +875,7 @@ trivy:
   # For example, the offline mode will not try to resolve transitive dependencies in pom.xml when the dependency doesn't
   # exist in the local repositories. It means a number of detected vulnerabilities might be fewer in offline mode.
   # It would work if all the dependencies are in local.
-  # This option doesn¡¯t affect DB download. You need to specify skipUpdate as well as offlineScan in an air-gapped environment.
+  # This option doesnï¿½ï¿½t affect DB download. You need to specify skipUpdate as well as offlineScan in an air-gapped environment.
   offlineScan: false
   # Comma-separated list of what security issues to detect. Defaults to `vuln`.
   securityCheck: "vuln"
